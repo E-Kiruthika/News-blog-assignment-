@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 0px;
+        }
+        .first{
+            position: relative;
+            left: 30px;
+            top: 30px;
+        }
+        .first >a{
+            position: absolute;
+        }
+        div> #one{
+           position: absolute;
+           left: 0px;
+        top: 190px;
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times;
+        color: black;
+        font-weight: bold;
+        }
+        div> #two{
+            position: absolute;
+            left: 0px;
+            top: 220px;
+            font-size: 17px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: beige;
+            font-weight: bold;
+        }
+        a:hover
+        {
+            color: rgb(5, 19, 5);
+        }
+        .first >img{
+            width: 300px;
+            height: 300px;
+        }
+.header{
+    font-size: 13px;
+    text-anchor: middle;
+    background-color: blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+    </style>
+</head>
+<body>
+<div class="header"><a href="https://www.hindustantimes.com/"><h1 >Hindustan Times News</h1></a></div>
+    <div class="container"> 
+        <div class="first">
+            <a id="one" href="#">crime</a>
+            <a id="two" href="https://www.hindustantimes.com/india-news/gujarat-ats-busts-drug-manufacturing-unit-near-surat-3-held-101721297327025.html">Gujarat ATS busts drug manufacturing unit near Surat, 3 held</a>
+            <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/One-of-the-accused-was-staying-on-the-42nd-floor-o_1711739684795_1721297712642.jpg" alt="" height="200"width="300">
+        </div> 
+            <div class="first">
+                <a id="one" href="#">India</a>
+                <a  id="two" href="https://www.hindustantimes.com/india-news/mallikarjun-kharge-attacks-modi-over-dibrugarh-express-accident-leaves-no-opportunity-for-self-publicity-but-101721305604152.html">Mallikarjun Kharge attacks Narendra Modi over Dibrugarh Express accident: ‘Leaves no opportunity for…'</a>
+                <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/modi-kharge-pti_1707381875587_1721305933538.jpeg" alt="" height="200"width="300">
+            </div>
+                <div class="first">
+                    <a id="one"href="#">World</a>
+                    <a  id="two"href="https://www.hindustantimes.com/world-news/us-news/jd-vance-has-sold-his-soul-to-become-us-biggest-cheerleader-for-donald-trump-says-his-exroommate-101721302317701.html">JD Vance has ‘sold his soul’ to become US' ‘biggest cheerleader’ for Donald Trump, says his ex-roommate</a>
+                    <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/Vance_1721306303845_1721306308205.jpg" alt="" height="200"width="300">
+                </div>
+ 
+                    <div class="first">
+                        <a id="one"href="#">Entertainment</a>
+                        <a  id="two"href="https://www.hindustantimes.com/entertainment/others/malayalam-actor-asif-ali-wins-hearts-by-gifting-paper-boat-to-fan-who-greets-him-at-event-watch-101721297200569.html">Malayalam actor Asif Ali wins hearts by gifting paper boat to fan who greets him at event. Watch</a>
+                        <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/Asif_Ali_paper_boat_1721297659244_1721297668781.jpg" alt="" height="200"width="300">
+                    </div>
+                        <div class="first">
+                            <a id="one"href="#">Trending</a>
+                            <a  id="two"href="https://www.hindustantimes.com/trending/egypt-man-visits-seven-wonders-of-the-world-in-under-a-week-creates-guinness-world-record-101721301058312.html">Egyptian man visits seven wonders of the world in under a week, creates world record</a>
+                            <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/egypt-man-7-wonders-of-world-GWR_1721305580502_1721305593155.jpg" alt="" height="200"width="300">
+                        </div>
+                        <div class="first">
+                            <a id="one" href="#">Latest News</a>
+                            <a id="two" href="https://www.hindustantimes.com/india-news/two-dead-over-25-injured-as-train-derails-in-uttar-pradeshs-gonda-101721297570621.html">Dibrugarh Express derails in Uttar Pradesh's Gonda; 3 dead, over 60 injured</a>
+                            <img src="https://images.hindustantimes.com/img/2024/07/18/550x309/4e5c0bdb-8d42-4c92-bfd4-3a480f7378b3_1721297863268_1721297869609.jpg" alt="" height="200" width="300">
+                        </div>
+                        <div class="first">
+                            <a id="one" href="#">Politics</a>
+                            <a id="two" href="https://timesofindia.indiatimes.com/city/chennai/i-am-speaking-to-aiadmk-members-and-leaders-ops/articleshow/111841540.cms">I am speaking to AIADMK members and leaders:OPS </a>
+                            <img src="https://static.toiimg.com/thumb/msid-111841531,imgsize-16354,width-400,height-225,resizemode-72/111841531.jpg" alt="" height="200" width="300">
+                        </div>
+                                        
+
+    </div>
+</body>
+</html>
